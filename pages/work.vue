@@ -1,6 +1,7 @@
 <template>
   <div>
     <canvas ref="canvas"></canvas>
+
     <div>
       <div
         id="workPage"
@@ -90,12 +91,43 @@
           <iframe
             width="560"
             height="315"
-            src="https://www.youtube.com/embed/1cnhJRoDjcI"
+            src="https://www.youtube.com/embed/EeJG19qkZ5s"
             title="YouTube video player"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen
           ></iframe>
+        </section>
+        <section
+          class="grid-column: 2 / 8; padding: 1rem; background: var(--dark-bg); font-size: 1.25rem; line-height: 1.5; margin-bottom: var(--spacing);"
+          style="right: 40%"
+        >
+          <br />
+          <h2>👩🏽‍🚀 Personal Website</h2>
+
+          <ul>
+            <li>
+              ✅Designed and implemented 3D dynamic interactive personal website
+              based on Three.js and Nuxt.js; rendered the layout of the pages
+              via Tailwind CSS; deployed it on personal website using Netlify.
+            </li>
+            <li>
+              ✅Captured mouse in real time and displayed the light in the
+              corresponding position of the background plate; realized the real
+              time deformation of the background page through the dat.gui;
+            </li>
+            <li>
+              ✅Simulated trigonometric waveform and applied to achieve the
+              undirected rhythm of the background plate.
+            </li>
+            <li>
+              ✅Added animation effect to text through gsap to improve visual
+              experience; and realized amzaing transition effect by transforming
+              camera position; added each project effect display video in
+              personal achievement displ
+            </li>
+          </ul>
+        
         </section>
       </div>
     </div>
@@ -229,8 +261,8 @@ export default {
       const t = document.body.getBoundingClientRect().top;
       thomas.rotation.x += 0.02;
       thomas.rotation.y += 0.075;
-    //   thomas.rotation. += 0.05;
-    thomas.position.x -= 0.05;
+      //   thomas.rotation. += 0.05;
+      thomas.position.x -= 0.05;
       thomas.position.z -= 0.05;
       thomas.position.y -= 0.3;
 
