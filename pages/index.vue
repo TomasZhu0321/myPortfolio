@@ -53,10 +53,12 @@ import {
   Float32BufferAttribute,
   Points,
 } from "three";
-import OrbitControls from "orbit-controls-es6";
+
 // import * as dat from "dat.gui";
 import gsap from "gsap";
 
+// import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls'
+import OrbitControls from 'orbit-controls-es6';
 export default {
   mounted() {
     const dat = require("dat.gui");
