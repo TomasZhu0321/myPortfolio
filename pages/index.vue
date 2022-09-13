@@ -297,7 +297,7 @@ export default {
         duration: 1.5,
         delay: 2.5,
         onComplete: () => {
-          this.$router.push("/work");
+          this.$router.push("/newwork");
         },
       });
     });

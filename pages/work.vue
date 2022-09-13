@@ -271,8 +271,8 @@ export default {
       camera.rotation.y = t * -0.005;
     }
 
-    document.body.onscroll = moveCamera;
-    moveCamera();
+    // document.body.onscroll = moveCamera;
+    // moveCamera();
 
     // const lightHelper = new PointLightHelper(pointLight);
     // const gridHelper = new GridHelper(200, 50);
