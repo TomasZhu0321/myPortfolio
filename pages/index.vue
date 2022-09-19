@@ -18,10 +18,10 @@
           id="goal"
           class="font-exo text-6xl font-extrabold italic uppercase mt-3 opacity-0"
         >
-          A gradute student hunting for Co-op
+          A gradute student hunting for 4 to 12 months Co-op
         </p>
         <p id="date" class="font-exo text-2xl uppercase mt-3 opacity-0">
-          (jan.2023-Sep.2023)
+          (Jan.2023-Dec.2023)
           <br />
           <button
             id="viewWork"
