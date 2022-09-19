@@ -7,13 +7,13 @@
         class="absolute text-white text-center"
         style="top: 50%; transform: translate(-50%, -50%); left: 50%"
       >
-        <h1
+        <p
           id="thomas"
-          class="font-space-mono text-3xl tracking-wide opacity-0"
+          class="font-space-mono text-3xl tracking-wide opacity-0 "
           style="transform: translateY(30px)"
         >
           DEMING(THOMAS) ZHU
-        </h1>
+    </p>
         <p
           id="goal"
           class="font-exo text-6xl font-extrabold italic uppercase mt-3 opacity-0"
@@ -297,7 +297,8 @@ export default {
         duration: 1.5,
         delay: 2.5,
         onComplete: () => {
-          this.$router.push("/newwork");
+          
+          window.location.href='https://thomasweb.netlify.app/';
         },
       });
     });

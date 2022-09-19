@@ -14,7 +14,9 @@ export default {
     link: [
       {  rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       {  rel :'stylesheet' , href:'/css/work.css'},
-      { rel: 'stylesheet', href:"https://unicons.iconscout.com/release/v4.0.0/css/line.css"}
+      { rel: 'stylesheet', href:"https://unicons.iconscout.com/release/v4.0.0/css/line.css"},
+      {rel:"stylesheet",href:"/css/swiper-bundle.min.css"}
+      
     ]
   },
 
